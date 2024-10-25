@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //datatypes
+
+        let a = "15";
+        let b = "10";
+        console.log(a+b);//1510
+        console.log(a-b);//5
+        console.log(a*b);//150
+        console.log(a/b);//1.5
+        console.log(a%b);//5
+          
+
+       let c = 5;
+       let d = "ab";
+       console.log(c+d);//5ab
+       console.log(c-d);//NAN(not a number)where d is string so itt results as NAN
+       console.log(c*d);//NAN(not a number)where d is string so itt results as NAN
+       console.log(c/d);//NAN
+
+
+
+       let e = 20;
+       let f =10;
+       console.log(e+f);//30
+       console.log(e-f);//10
+       console.log(e*f);//200
+       console.log(e/f);//2
+
+
+       let g = undefined;
+       let h = 5;
+       console.log(g+h);//NAN
+       console.log(g-h);//NAN
+       console.log(g*h);//NAN
+
+
+
+       let i = null;
+       let j = 10;
+       console.log(i+j);//10
+       console.log(i-j);//-10
+       console.log(i*j);//0
+
+
+
+       let k = null;
+       let l = "a";
+       console.log(k+l);//nulla
+       console.log(k-l);//NAN
+
+       let m = undefined;
+       let n = "b";
+       console.log(m+n);//undefinedb
+       console.log(m-n);//NAN
+
+      
+
+       let o = 7;
+       let p = "ab";
+       let q = null;
+       let r = undefined;
+       console.log(typeof o);//number
+       console.log(typeof p);//string
+       console.log(typeof q);//object
+       console.log(typeof r);//undefined
+
+
+       //object
+       const list={
+        name:"Bhargavi",
+        age:21,
+        degree:{
+            btech:"mrits",
+            inter:"ekashila junior college",
+            10:"vps"
+        }
+       }
+        console.log(list.name);//Bhargavi
+        console.log(list);
+        console.log(list.rollnumber);//undefined
+        console.log(list.degree[10]);//vps
+        console.log(list.degree.inter);//ekashila junior college
+
+    </script>
+</body>
+</html>
